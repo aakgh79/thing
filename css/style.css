@@ -1,0 +1,21 @@
+
+  * {
+    font-family: DeliusUnicase ; 
+    font: size 50px;
+     text-align:center;
+     margin-top: 60px ;
+  }
+  
+  @font-face {
+    font-family: Sahel;
+    src: url("../font/Sahel.woff2");
+  }
+@font-face{
+font-family: parastoo;
+src: url(../font/Parastoo.woff2);
+}
+@font-face {
+  font-family: DeliusUnicase ;
+  src: url(../font/DeliusUnicase-Regular.ttf);
+}
+
