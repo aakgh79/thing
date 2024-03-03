@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Sahel;
+    src: url('../Font/sahel.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Sahel-FD;
+    src: url('../Font/Sahel-FD.eot');
+    src: url('../Font/Sahel-FD.eot?#iefix') format('Sahel-FD-opentype'), url('../Font/Sahel-FD.woff') format('woff'), url('../Font/Sahel-FD.ttf') format('truetype');
+    /*font-weight:  ;
+    font-style: normal;*/
+}
+
+@font-face {
+    font-family: "hafs";
+    src: url('../Font/hafs.eot');
+    src: url('../Font/hafs.woff2') format('woff2'), url('../Font/hafs.woff') format('woff'), url('../Font/hafs.otf') format('opentype');
+}
+
+.font-sahel-bold {
+    font-family: sahel;
+    font-weight: bold;
+}
+
+.font-sahel {
+    font-family: sahel;
+}
+
+.font-sahel-fd {
+    font-family: Sahel-FD;
+}
+
+.font-hafs {
+    font-family: hafs;
+}
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url('../Font/digital-7.ttf');
+}
+
+.font-digital {
+    font-family: Digital-7;
+}
+
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('../Font/IranNastaliq.ttf');
+}
+
+.font-nastaliq {
+    font-family: IranNastaliq;
+}
+
+
+@-webkit-keyframes blink {
+    50% {
+        background: #ffe600;
+    }
+}
+
+@-moz-keyframes blink {
+    50% {
+        background: #ffe600;
+    }
+}
+
+@keyframes blink {
+    50% {
+        background: #ffe600;
+    }
+}
+
+.blink {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-direction: normal;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: blink;
+    -moz-animation-timing-function: linear;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: blink;
+    animation-timing-function: linear;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: white gray;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 0.8em;
+}
+
+*::-webkit-scrollbar-track {
+    background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+    border: 3px solid white;
+}
